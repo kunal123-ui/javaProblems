@@ -14,7 +14,7 @@ class sortOddNum{
             for(int j=0;j<cout-i-1;j++){
                 if (odd[j] > odd[j + 1]) {
                     int t = odd[j];
-                    odd[j] = a[j + 1];
+                    odd[j] = odd[j + 1];
                     odd[j + 1] = t;
                 }
             }
