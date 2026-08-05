@@ -12,7 +12,6 @@ class FindMaximumProductTwoElements{
                     max=pro;
                 }
                 }
-
             }
         System.out.print(max);
 
